@@ -1,0 +1,23 @@
+{
+    "name":        "tomkyle/exceptionhandling",
+    "type":        "library",
+
+    "authors": [
+        {
+            "name":  "Carsten Witt",
+            "email": "tomkyle@posteo.de",
+            "role":  "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "tomkyle\\ExceptionHandling\\": "src/"
+        }
+    }
+
+}
